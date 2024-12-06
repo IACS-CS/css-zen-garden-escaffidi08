@@ -35,33 +35,44 @@ h6 {
 
 /* Background */
 #css-zen-garden {
-background-color: #ffd780
+background-color: #f1d08b
 }
-
 
 .summary{
   text-align: center;
 }
 
 .page-wrapper{
-  text align: center;
-  padding-top: 1in;
   padding-bottom:1.5in;
 }
 
 [role=banner] {
-  padding-bottom: 1in;
+  padding-top: 2in;
+  padding-bottom: 3in;
   text-align: center;
+   background-image: url('data:image/svg+xml,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%232A704F" d="M32.8,-38.2C47.7,-34.4,68.6,-31.7,76.6,-21.5C84.6,-11.3,79.8,6.6,70.3,18.8C60.8,31.1,46.6,37.9,34.1,45C21.6,52.2,10.8,59.7,2.7,56C-5.4,52.2,-10.7,37.2,-22.2,29.7C-33.7,22.2,-51.4,22.3,-59.8,15.1C-68.1,7.8,-67.2,-6.9,-64.7,-23.1C-62.2,-39.2,-58.2,-56.9,-47.2,-62C-36.2,-67.2,-18.1,-59.7,-4.6,-53.4C9,-47.1,17.9,-42.1,32.8,-38.2Z" transform="translate(100 100)" /></svg>');
+background-size: 990px;
+background-position: 43% 60%;
+background-repeat: no-repeat;
+font-size: 30px;
 }
 
-background-image{
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-<g fill="#a35b12" id="cloud" transform="matrix(1,0,0,1,0,40)">
-<path d="M 353.89221757900214 142.215576080505 A  1 1 0 1 1 581.7365042863491 383.2335475533309 A  1 1 0 1 1 202.09581267762326 385.92814225065496 A  1 1 0 1 1 213.77246221667986 125.44909805023741 A  1 1 0 1 1 353.89221757900214 142.215576080505 Z" stroke-linecap="round" stroke-linejoin="round">
-</path></g></svg>
+.summary {
+ background-image: url('data:image/svg+xml,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%23FF0066" d="M51,-60.9C63.4,-50.3,69.1,-31.7,62.3,-18.6C55.6,-5.5,36.3,2.2,28.9,18.4C21.6,34.5,26,59.2,19.5,67.8C12.9,76.4,-4.8,69,-23,62.6C-41.2,56.3,-60,50.9,-71.6,37.9C-83.3,24.9,-87.8,4.3,-82.3,-12.4C-76.8,-29,-61.3,-41.8,-45.9,-51.8C-30.5,-61.9,-15.2,-69.3,2,-71.7C19.2,-74,38.5,-71.4,51,-60.9Z" transform="translate(100 100)" /></svg>');
+}
+
+
+
+
+
+
+
+img{
+url(https://www.stickers-factory.com/media/catalog/product/cache/1/image/363x/040ec09b1e35df139433887a97daa66f/0/3/03816_00.png);
 }
 
 main,
 div {
   border: 1px solid red;
 }
+
